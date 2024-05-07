@@ -52,7 +52,7 @@ body {
   /* Navbar
   ================================================================ */
   --cd-navbar-background-color:          #b6d2f7;
-  --cd-navbar-brand-color:               #f05e15;
+  --cd-navbar-brand-color:               #cc7d33;
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-content-background-color);
   --cd-navbar-link-color:                #cc7d33;
@@ -96,7 +96,7 @@ body {
   --cd-footer-background-color:          var(--cd-navbar-background-color);
 
   /* Link/Text */
-  --cd-footer-text-color:                #f05e15;
+  --cd-footer-text-color:                #cc7d33;
   --cd-footer-link-color:                var(--cd-navbar-link-color);
   --cd-footer-link-color-hover:          var(--cd-navbar-link-color-hover);
 
