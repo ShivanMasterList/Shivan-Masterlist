@@ -663,8 +663,8 @@ const frontPage = (options) => {
                 let indexEvents = newestEvents.slice(0, charadexInfo.numOfPrompts);
     
                 // Add card link
-                let cardKey = Object.keys(selectDesigns[0])[0];
-                for (var i in selectDesigns) { selectDesigns[i].cardlink = folderURL + "/masterlist.html?" + cardKey + "=" + selectDesigns[i][cardKey]; }
+                 let cardKey = Object.keys(selectDesigns[0])[0];
+                for (var i in selectDesigns) { selectDesigns[i].cardlink = folderURL + "masterlist.html?" + cardKey + "=" + selectDesigns[i][cardKey]; }
     
                 // Nyoom
                 let galleryOptions = {
