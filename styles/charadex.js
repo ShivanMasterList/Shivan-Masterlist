@@ -662,7 +662,7 @@ const frontPage = (options) => {
                 // Show x Amount on Index
                 let indexEvents = newestEvents.slice(0, charadexInfo.numOfPrompts);
     
-                // Add card link                
+                // Add card link
                 let cardKey = Object.keys(selectDesigns[0])[0];
                 for (var i in selectDesigns) { selectDesigns[i].cardlink = folderURL + "/masterlist.html?" + cardKey + "=" + selectDesigns[i][cardKey]; }
     
