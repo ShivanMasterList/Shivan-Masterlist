@@ -101,7 +101,7 @@ let options = {
         sheetPage: sheetPages.prompts,
 
         itemAmount: 24,
-        itemOrder: "desc",
+        itemOrder: "asc",
 
         searchFilterParams: ['Title'],
     
